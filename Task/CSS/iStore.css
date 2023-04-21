@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    
+text-align: center;
+} 
+
+/* Nav Start */
+
+nav a{
+   text-decoration: none; 
+   color: aliceblue;
+}
+header{
+    border: 3px  black;
+    border-style: outset;
+    background-color:black;
+    height: 60px;
+}
+
+#navcontainer
+{
+    display: flex;
+align-items: center; 
+}
+
+.navitems
+{
+width: 150px;
+line-height: 65px; 
+font-size: 19px;
+/* font-family: 'Dongle', sans-serif; */
+font-family: 'Raleway', sans-serif;
+color: aliceblue;
+}
+
+nav a:hover
+{
+    color: rgb(117, 116, 116);
+}
+
+/* Navbar Over  */
+
+/* Home section  */
+
+#home
+{
+    border-style:outset; 
+    margin: 0%;
+background-color:white;
+    height: 900px; 
+}
+#home>img{
+width: 500px;
+padding-top:250px; 
+}
+
+/* home section over */
+
+
+
+
+
+
+/* Iphone14 Section  */
+
+#iphone14
+{
+     /* border: 1px solid grey; */
+     border-style:outset; 
+   height: 1050px; 
+   background-color:white;
+}
+#iphone14>img{
+      object-fit:contain;  
+ width:500px; 
+padding-top:390px; 
+
+}
+
+#iphone14>h2
+{
+    /* font-family: sans-serif; */
+    font-family: 'Raleway', sans-serif;
+color: rgb(53,53,53);
+position: relative;
+top: 190px;
+font-weight: bold; 
+}
+
+#iphone14>h1
+{
+    font-family: sans-serif;
+     font-weight: bold; 
+color: rgb(53,53,53);
+position: relative;
+top: 460px;
+}
+
+
+
+/* Iphone14 section over */
+
+
+/* Music Section Start */
+
+#Music{
+    height: 1000px;
+    background-color: black;
+    color: aliceblue;
+    border-style:outset;
+}
+
+#Music h1,h3{
+    position: relative;
+    top: 250px;
+    background-color: black;
+    color: aliceblue;
+}
+
+#Music h3~p{
+    position: relative;
+    top: 200px;
+}
+
+#Music a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+    position:relative;
+    top: 350px;
+}
+
+#Music a+p
+{
+    position:relative;
+    top: 360px;
+}
+
+
+
+
+
+/* Music  Section Over*/
+
+
+
+/* About section  */
+
+#About
+{
+   height:1050px; 
+   background-color: black;
+   border: 2px outset white;
+}
+
+#About>p
+{
+ color: azure;
+position: relative;
+top: 40%;
+word-wrap:normal;
+/* border: 1px solid white; */
+/* width: fit-content; */
+font-weight: bold;
+padding: 20px;
+border-radius: 10px;
+
+}
+
+#About span
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+    position: relative;
+top: 40%;
+color: aliceblue;
+}
+
+
+#About a
+{
+color:red;
+}
+
+
+/* About Section Over */
+
+
+/*  Support section */
+
+#Support
+{
+background-color: black;
+border: 2px ridge white;
+display: grid;
+grid-template-columns:2fr 2fr 2fr;
+grid-template-rows:500px ;
+}
+
+
+
+.supportitem
+{
+ border: px ridge white;
+}
+
+
+
+.supportitem h1 {
+
+color: aliceblue;
+}
+
+.supportitem hr{
+     color:white; 
+    border: 2px solid;
+}
+
+.supportitem a{
+text-decoration: none;
+color:aliceblue;
+line-height: 80px;
+position: relative;
+top: 20px;
+
+}
+
+.supportitem a:hover
+{
+    color: yellowgreen;
+}
+
+
+/* support over */
+
+
+
+
+/* Copyryt */
+
+#copyright
+{
+height: 80px;
+background-color: black;
+border: 2px ridge white;
+}
+
+
+#copyright span i{
+color: aliceblue;
+padding-top: 20px;
+}
+
+#copyright  h6{
+    color: aliceblue;
+font-family:sans-serif;
+}
